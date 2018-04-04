@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Ro Avery'
 SITENAME = 'ro-bot blog'
-SITEURL = ''
+SITEURL = 'https://joeingledew.github.io/robot-blog'
 
 THEME = 'themes/medius'
 OUTPUT_PATH = 'output'
