@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Ro Avery'
 SITENAME = 'ro-bot blog'
-SITEURL = 'blog.ro-bot.co.uk'
+SITEURL = ''
 
 THEME = 'themes/medius'
 OUTPUT_PATH = 'output'
@@ -37,7 +37,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 # Custom home page
 # DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
