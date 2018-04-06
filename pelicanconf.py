@@ -43,3 +43,23 @@ RELATIVE_URLS = True
 # DIRECT_TEMPLATES = (('index', 'blog', 'tags', 'categories', 'archives'))
 # PAGINATED_DIRECT_TEMPLATES = (('blog',))
 # TEMPLATE_PAGES = {'home.html','index.html',}
+
+# Medius-specific
+MEDIUS_AUTHORS = {
+    "Ro Avery": {
+        "description": """
+            Ro is a lazy software developer and hobbyist game designer
+        """,
+        "cover": "",
+        "image": "",
+        "links": (("twitter", "http://twitter.com/r0botblues")),
+    }
+}
+
+MEDIUS_CATEGORIES = {
+    "30 Day Project": {
+        "description": "Posts relating to a project undertaken over a period of thirty days - an attempt to Get Stuff Done",
+        "logo": "",
+        "thumbnail": "",
+    }
+}
