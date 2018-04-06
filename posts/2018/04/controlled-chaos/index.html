@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+        <title>Day 3 - Controlled Chaos</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../../../../theme/css/main.css" />
+</head>
+<body>
+
+    <div class="navigation pure-menu pure-menu-horizontal">
+        <a href="../../../../" class="pure-menu-heading  pure-menu-link">ro-bot blog</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"></li>
+
+            <li class="pure-menu-item pure-menu-selected"><a href="../../../../category/30-day-project.html" class="pure-menu-link">30 Day Project</a></li>
+        </ul>
+    </div>
+
+
+<div class="page-container">
+    <div class="entry-content">
+        <div class="post-meta pure-g">
+            <div class="pure-u">
+                <a href="../../../../category/30-day-project.html"><img src="images/30-day.jpg " class="post-avatar" alt="30 Day Project"></a>
+            </div>
+<div class="pure-u-3-4 meta-data">
+    <a href="../../../../category/30-day-project.html" class="category">30 Day Project</a><br />
+
+    <a class="author" href="../../../../author/ro-avery.html">Ro Avery</a>
+    &mdash; <abbr title="2018-04-06T14:53:00+02:00">Fri 06 April 2018</abbr>
+</div>        </div>
+    </div>
+
+    <div class="article-header-container">
+        <div class="background-image-container">
+
+            <div class="background-image-small">
+                <div class="title-container">
+                    <h1>Day 3 - Controlled Chaos</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="entry-content">
+        <h2>Escalation and tables</h2>
+<p>As established in the previous post, I'm going to need to come up with a fair few tables for determining the staqte of the world at the end of each player "turn". This is a somewhat difficult balance to strike, as I don't want the situation to start spiralling out of control quickly and I don't want it to remain on one stage so long that it becomes stale. As such, I think an element of <strong>escalation</strong> will be in order.</p>
+<p>To explain, 13th age has a neat mechanic for combat where each turn, so long as the characters are not falling back or doing nothing, the <em>escalation die</em> ticks up - this value is added to the rolls of player characters and important enemies. This was implemented to help reduce the swinginess inherent in d20 systems and ensure that the pace of the battle will generally increase. There's also a number of abilities that depend on the escalation die being at or above/below a certain value.</p>
+<p>I think I can make use of this in order to ensure the game state advances without having the possibility of it immediately going nuts. I'm not attached to a particular die, but for ease I'm going to assume it'll be a d6 for now.</p>
+<p>The escalation die will begin at ~~zero~~ one (i forgot dice don't have a zero-th side) and reset to zero each time the "state" advances to the next stage. With ten-minute turns and a d6, this means that each roll-over on the escalation die will be an hour. Neat. If the escalation die would be incremented and it is already on its maximum value, then the stage will advance without a roll on the current stage table. If the stage is not automatically advancing, then the GM wil make a roll on the current Stage Table. Here's an example of an early stage table.</p>
+<h4>Dusk</h4>
+<table>
+<thead>
+<tr>
+<th>Roll (d10 + Escalation)</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>Sounds of shouting are heard in the distance</td>
+</tr>
+<tr>
+<td>3</td>
+<td>A lone resident spots the party and will alert others soon</td>
+</tr>
+<tr>
+<td>4</td>
+<td>A pair of townsfolk with torches can be seen approaching. They will spot the party in 30 seconds.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Any townsfolk around stop and stare at the moon for the next ten minutes. They will completely ignore the party this turn</td>
+</tr>
+<tr>
+<td>6</td>
+<td>A 1HD cleric leading 1d6 0HD rabble stumble upon the party.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>A group of 3d6 0HD rabble stumbles upon the party</td>
+</tr>
+<tr>
+<td>8</td>
+<td>A mob of 3d6 0HD rabble, 1d6 1HD guards stumbles upon the party</td>
+</tr>
+<tr>
+<td>9</td>
+<td>The town converges - A mob of 3d6 0HD rabble approaches from one direction, and a group of 2d6 1HD guards approaches from the other. Both groups have a 1HD cleric leading them.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>It Gazes Upon You - Choose the least lucky party member. They feel that they are being watched and must make a save versus magic. If they fail, they must immediately run for cover. If they cannot make it within 10 seconds, they roll on the affliction table. That person then becomes the luckiest person, regardless of success or failure (read: don't pick the same chump twice for these)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>It Makes Contact - The presence attempts to cummunicate with each member of the party in sequence. Randomly determine the first target - they must roll a save vs. Magic. If they fail, roll on table X for an affliction. Continue this process until either all party members have been afflicted or somebody passes a save. If somebody passes a save, they feel drawn to the town square around the clock tower.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>The moon approaches. Move to the <strong>Night</strong> stage.</td>
+</tr>
+<tr>
+<td>13+</td>
+<td>The moon approaches. Move to the <strong>Night</strong> stage. Roll on the Night table with no escalation</td>
+</tr>
+</tbody>
+</table>
+<p>Note that this table references two other tables - the Affliction table and the Night table. Also, this is by no means final. The affliction table should take into account the stage, but since I don't want to write a new table for each stage, the table will have a modifier of some kind allowing some results to be less likely and some results to be impossible at earlier stages.</p>
+    </div>
+
+    <footer>
+        <div class="tags">
+            <a href="../../../../tag/30day.html">30day</a>
+            <a href="../../../../tag/writing.html">writing</a>
+            <a href="../../../../tag/rpg.html">rpg</a>
+        </div>
+        <div class="pure-g post-footer">
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div class="pure-g poster-info">
+                    <div class="pure-u">
+                        <a href="../../../../author/ro-avery.html"><img src="" alt=""></a>
+                    </div>
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="../../../../author/ro-avery.html">Ro Avery</a></h3>
+                        <p class="author-description">
+                          
+            Ro is a lazy software developer and hobbyist game designer
+        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pure-u-1 pure-u-md-1-2">
+
+                <div class="pure-g post-category-info">
+                    <div class="pure-u">
+                        <a href="../../../../category/30-day-project.html"><img src="images/30-day.jpg" alt=""></a>
+                    </div>
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="../../../../category/30-day-project.html">30 Day Project</a></h3>
+                        <p class="author-description">
+                          Posts relating to a project undertaken over a period of thirty days - an attempt to Get Stuff Done
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+</div>
+
+
+
+    <footer class="index-footer">
+
+        <a href="../../../../" title="ro-bot blog">ro-bot blog</a>
+        <a href="../../../../category/30-day-project.html">30 Day Project</a>
+        <a href="http://getpelican.com/">Pelican</a>
+        <a href="http://python.org/">Python.org</a>
+        <a href="http://jinja.pocoo.org/">Jinja2</a>
+
+    </footer>
+
+</body>
+</html>
