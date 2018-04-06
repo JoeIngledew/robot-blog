@@ -57,5 +57,7 @@ MEDIUS_AUTHORS = {
 MEDIUS_CATEGORIES = {
     "30 Day Project": {
         "description": "Posts relating to a project undertaken over a period of thirty days - an attempt to Get Stuff Done",
+		"logo": 'images/30-day.jpg',
+		"thumbnail": 'images/30-day.jpg'
     }
 }
