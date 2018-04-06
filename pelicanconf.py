@@ -50,16 +50,12 @@ MEDIUS_AUTHORS = {
         "description": """
             Ro is a lazy software developer and hobbyist game designer
         """,
-        "cover": "",
-        "image": "",
-        "links": (("twitter", "http://twitter.com/r0botblues")),
+        "links": (('twitter-square', 'http://twitter.com/r0botblues'),),
     }
 }
 
 MEDIUS_CATEGORIES = {
     "30 Day Project": {
         "description": "Posts relating to a project undertaken over a period of thirty days - an attempt to Get Stuff Done",
-        "logo": "",
-        "thumbnail": "",
     }
 }
