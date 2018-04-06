@@ -13,7 +13,7 @@ To explain, 13th age has a neat mechanic for combat where each turn, so long as 
 
 I think I can make use of this in order to ensure the game state advances without having the possibility of it immediately going nuts. I'm not attached to a particular die, but for ease I'm going to assume it'll be a d6 for now.
 
-The escalation die will begin at ~~zero~~ one (i forgot dice don't have a zero-th side) and reset to zero each time the "state" advances to the next stage. With ten-minute turns and a d6, this means that each roll-over on the escalation die will be an hour. Neat. If the escalation die would be incremented and it is already on its maximum value, then the stage will advance without a roll on the current stage table. If the stage is not automatically advancing, then the GM wil make a roll on the current Stage Table. Here's an example of an early stage table.
+The escalation die will begin at <del>zero</del> one (i forgot dice don't have a zero-th side) and reset to zero each time the "state" advances to the next stage. With ten-minute turns and a d6, this means that each roll-over on the escalation die will be an hour. Neat. If the escalation die would be incremented and it is already on its maximum value, then the stage will advance without a roll on the current stage table. If the stage is not automatically advancing, then the GM wil make a roll on the current Stage Table. Here's an example of an early stage table.
 
 #### Dusk
 
