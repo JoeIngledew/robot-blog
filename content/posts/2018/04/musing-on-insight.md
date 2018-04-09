@@ -1,6 +1,6 @@
 Title: Supplementary - Musing on Insight
 Slug: musing-on-insight
-Date: 2018-08-04 16:51
+Date: 2018-04-09 16:51
 Category: 30 Day Project
 Tags: 30day,writing,rpg
 Author: Ro Avery

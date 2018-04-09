@@ -1,6 +1,6 @@
 Title: Day 6 - Making up for lost time
 Slug: making-up-for-lost-time
-Date: 2018-08-04 16:31
+Date: 2018-04-09 16:31
 Category: 30 Day Project
 Tags: 30day,writing,rpg
 Author: Ro Avery
