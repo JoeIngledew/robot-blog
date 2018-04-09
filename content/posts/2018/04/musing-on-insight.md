@@ -1,13 +1,13 @@
 Title: Supplementary - Musing on Insight
 Slug: musing-on-insight
-Date: 2018-08-04 10:18
+Date: 2018-08-04 16:51
 Category: 30 Day Project
 Tags: 30day,writing,rpg
 Author: Ro Avery
 
 ### Grant Us Eyes
 
-Each place the party can explore will have a variety of scenes depending on their insight. It should be unclear which one is "true", and should be able to change
+Each place the party can explore will have a variety of scenes depending on their insight. It should be unclear which one is "true", and should be able to change on-the-fly if insight gets to the threshold. Being close to the threshold should give some images of the higher insight level.
 
 Here's an example:
 

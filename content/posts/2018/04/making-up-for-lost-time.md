@@ -20,16 +20,18 @@ Firstly, the Clock Tower Cleric. They will be patrolling with a small congregati
 *For each phase after Dusk, roll a mutation from the **"Townsfolk Mutations"** table for each opponent*
 
 *Cult Leader Coritheus*
-HD: 3
-Attacks as a level 3 Cleric
-Armed with a light mace
-Armoured with a breastplate under a simple midnight blue tabard with a full moon motif
+
+ * HD: 3
+ * Attacks as a level 3 Cleric
+ * Armed with a light mace
+ * Armoured with a breastplate under a simple midnight blue tabard with a full moon motif
 
 *Guards Rickard and Adal*
-HD: 1
-Attack as level 1 fighters
-Armed with an arming sword and a spear respectively.
-Armoured with breatplates and helms
+
+ * HD: 1
+ * Attack as level 1 fighters
+ * Armed with an arming sword and a spear respectively.
+ * Armoured with breatplates and helms
 
 ### The Lunar Guardian
 
@@ -38,11 +40,13 @@ Secondly, we have the The Lunar Guardian. This will be the last fight the player
 The Guardian is essentially a werewolf, with snow-white fur stained with spattered blood of its previous victims. It will stand in front of the goal macguffin and will not attack unless the PCs attempt to go around it or attack it. 
 
 HD: 4
+
 Attacks: 
- - Bite +3, Claws +2 each
- - Pounce: Save versus Paralysis or be pinned. It takes a bite or a single claw attack each round you are pinned, but automatically bypasses AC for these.
- - Howl: Save versus (Breath Weapon, I think) or be deafened for ten minutes and stunned for a round.
- - Sunder: The Guardian will attempt to rend leather armour or wooden weapons at +3. If it connects, that item is useless. (Perhaps a save is in order)
+
+ * Bite +3, Claws +2 each
+ * Pounce: Save versus Paralysis or be pinned. It takes a bite or a single claw attack each round you are pinned, but automatically bypasses AC for these.
+ * Howl: Save versus (Breath Weapon, I think) or be deafened for ten minutes and stunned for a round.
+ * Sunder: The Guardian will attempt to rend leather armour or wooden weapons at +3. If it connects, that item is useless. (Perhaps a save is in order)
 AC: 12
 
 At half hit points, it will undergo further transformation. Roll Three mutations on the **townsfolk mutation** table. If you get the same twice, the party is lucky and the Guardian doesn't gain another. It will spend the entire round adapting to the new form, allowing the party a few free attacks. In addition, any pinned party members will be freed, but still be prone. It will not make opportunity attacks while mutating.
