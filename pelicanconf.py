@@ -61,3 +61,11 @@ MEDIUS_CATEGORIES = {
 		"thumbnail": 'images/30-day.jpg'
     }
 }
+
+# plugins
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['pelican_comment_system']
+
+# comments
+PELICAN_COMMENT_SYSTEM = True
+
