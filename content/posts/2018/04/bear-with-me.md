@@ -5,7 +5,7 @@ Slug: bear-with-me
 Tags: dev,test
 Category: Development
 
-### I Hate Web Dev
+## I Hate Web Dev
 
 You may have noticed some funniness going on, namely a comment section popping up, disappearing, then reappearing.
 
