@@ -61,7 +61,7 @@ Without further ado, here is the encounter for The Watcher, split by degrees of 
 
 #### Minimum Insight
 
-At this level, the watcher will not be vulnerable in any way - It will simply be a horrifying presence that will continually assault the senses of the party until they flee or are consumed. Each round the party spends in the presence of The Watcher will cause an affliction (some will come with insight, which could potentially give The Watcher discernable form).
+At this level, the watcher will not be vulnerable in any way - It will simply be a horrifying presence that will continually assault the senses of the party until they flee or are consumed. Each round the party spends in the presence of The Watcher will cause an **affliction** (some will come with insight, which could potentially give The Watcher discernable form).
 
 #### Between X and Y Insight
 
