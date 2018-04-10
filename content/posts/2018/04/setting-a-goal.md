@@ -1,4 +1,4 @@
-Title: Setting A Goal
+Title: Day 7 - Setting A Goal
 Date: 2018-04-10 14:49
 Slug: setting-a-goal
 Author: Ro Avery
