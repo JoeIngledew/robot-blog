@@ -7,7 +7,7 @@ Tags: 30day,writing,rpg
 
 ## Engaging the Players
 
-I've thought for a while about how to engage the players in the content and my only idea (as written in my first entry) was awful and railroaded. So, I asked around for a bit of advice and a friend (who is also doing a bit of design for their 30 day project!) came up with something with potential!
+I've thought for a while about how to engage the players in the content and my only idea (as written in my first entry) was awful and railroaded. So, I asked around for a bit of advice and [biologistblues](http://biologistblues.tumblr.com) (who is also doing a bit of design for their 30 day project!) came up with something with potential!
 
 Often, the best way to motivate players is to take their **stuff**. When I'm playing a game, I typically get very attached to my things and will go to absurd measures to get them back if they're taken from me. I might go a little further than is usual, but it seems to be a widespread phenomenon to some degree. However, without Deus Ex Machina, having a non-preventable encounter where a thing is stolen is still verging on railroading a little hard, so I've had to expand a little.
 
